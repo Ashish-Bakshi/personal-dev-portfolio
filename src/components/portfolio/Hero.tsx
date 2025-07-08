@@ -92,10 +92,6 @@ const Hero = () => {
             Download Resume
           </Button>
         </a>
-          {/* <Button variant="outline" className="border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-white px-8 py-3 rounded-full font-semibold transition-all duration-300">
-            <Mail className="mr-2 h-4 w-4" />
-            Get In Touch
-          </Button> */}
         </motion.div>
 
         <motion.div
@@ -120,21 +116,6 @@ const Hero = () => {
         </motion.div>
       </motion.div>
 
-      {/* <motion.div
-        className="absolute bottom-8 left-1/2 transform -translate-x-1/2"
-        animate={{
-          y: [0, 10, 0],
-        }}
-        transition={{
-          duration: 2,
-          repeat: Infinity,
-          ease: "easeInOut"
-        }}
-      >
-        <div className="w-6 h-10 border-2 border-gray-400 rounded-full flex justify-center">
-          <div className="w-1 h-3 bg-gray-400 rounded-full mt-2 animate-pulse" />
-        </div>
-      </motion.div> */}
     </div>
   );
 };

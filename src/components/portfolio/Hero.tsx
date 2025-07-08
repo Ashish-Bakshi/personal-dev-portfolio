@@ -87,7 +87,7 @@ const Hero = () => {
           variants={itemVariants}
         > 
         <a href="/AshishResume.pdf" download>
-          <Button className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg">
+          <Button className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-8 py-6 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg">
             <Download className="mr-2 h-4 w-4" />
             Download Resume
           </Button>

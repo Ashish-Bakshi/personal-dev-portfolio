@@ -25,7 +25,7 @@ const Contact = () => {
     message: ""
   });
 
-  const API_URL = import.meta.env.API_BASE_URL;
+  const API_URL = import.meta.env.VITE_API_BASE_URL;
 
   const [status, setStatus] = useState<FormStatus>({
     type: 'idle',

@@ -312,6 +312,8 @@ const Contact = () => {
     message: ""
   });
 
+  const API_URL = import.meta.env.VITE_API_BASE_URL;
+
   const [status, setStatus] = useState<FormStatus>({
     type: 'idle',
     message: ''
@@ -332,7 +334,7 @@ const Contact = () => {
     setStatus({ type: 'loading', message: 'Sending message...' });
 
     try {
-      const response = await fetch('/api/contact', {
+      const response = await fetch(`${API_URL}/api/contact`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

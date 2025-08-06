@@ -22,6 +22,20 @@ const Projects = () => {
       featured: true,
     },
     {
+      title: "CloudNest",
+      description:
+        "CloudNest is a secure and modern file storage platform built with Next.js and Appwrite. It features user authentication, real-time file uploads, and organized file management. Designed for speed and scalability, CloudNest showcases my ability to integrate full-stack technologies and deliver a smooth, responsive user experience.",
+      image: "/cloudnest.png",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "Appwrite",
+      ],
+      github: "#",
+      live: "#",
+      featured: true,
+    },
+    {
       title: "CRM Website",
       description:
         "A collaborative Employee Management System developed for an organization to streamline employee tracking and administrative management. It features real-time updates with work time logs, role-based access control, significantly improving internal operational efficiency and workforce organization.",
@@ -29,7 +43,7 @@ const Projects = () => {
       technologies: ["React.js", "Express.js", "MongoDB", "Typescript"],  
       github: "https://github.com/Ashish-Bakshi/project0",
       live: "https://crm-sgk-fe.onrender.com/#/login",
-      featured: true,
+      featured: false,
     },
   ];
 
@@ -144,7 +158,7 @@ const Projects = () => {
           viewport={{ once: true }}
         >
           <h3 className="text-3xl font-bold text-center mb-12 text-white">
-            {/* Other Projects */}
+             Other Projects 
           </h3>
           <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-8">
             {otherProjects.map((project, index) => (

@@ -8,9 +8,9 @@ import { Cursor } from '@/components/cursor';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Creative Developer Portfolio | Modern Web Development',
-  description: 'Full-stack developer specializing in React, TypeScript, Three.js, and modern web technologies. Creating immersive digital experiences with cutting-edge animations.',
-  keywords: 'web developer, full-stack, React, TypeScript, Three.js, GSAP, portfolio, frontend, backend',
+  title: 'Ashish Developer Portfolio',
+  description: 'Full-stack developer',
+  keywords: 'web developer, full-stack, React, TypeScript, portfolio, frontend, backend',
   authors: [{ name: 'Creative Developer' }],
   creator: 'Creative Developer',
   openGraph: {
@@ -55,6 +55,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/favicon.png" />
+      </head>
       <body className={`${inter.className} antialiased`}>
         <ThemeProvider
           attribute="class"
